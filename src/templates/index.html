@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizza Plaza - Temukan berbagai jenis restoran di Pizza Plaza, restoran terbaik untuk menaklukkan rasa laparmu dengan sajian istimewa.">
+    <link rel="icon" href="./favicon.png">
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+
+    <title>Pizza Plaza</title>
+  </head>
+  <body>
+    
+    <header>
+      <a href="#content" class="skip-link">Skip to content</a>
+      <nav>
+        <a href="index.html" class="nav-logo">Pizza Plaza</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li><a href="https://www.linkedin.com/in/sisi-auliani/">About Us</a></li>
+        </ul>
+        <button id="hamburgerButton" aria-label="Open menu">☰</button>
+      </nav>
+
+      <div class="drawer" id="drawer" aria-hidden="true">
+        <div class="drawer-content">
+          <ul class="drawer-links">
+            <li><a href="#/home">Home</a></li>
+            <li><a href="#/favorite">Favorite</a></li>
+            <li><a href="https://www.linkedin.com/in/sisi-auliani/">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/sharp/hero-image_2-small.jpg">
+          <img class="hero-image" src='images/sharp/hero-image_2-large.jpg' 
+               alt="Pizza Plaza">
+        </picture>
+        <div class="hero-content">
+          <h1 class="hero-caption">Pizza Plaza</h1>
+          <p class="hero-sub-caption">Taklukkan Rasa Laparmu dengan Pizza Plaza, Temukan Rasa di Setiap Sajian!</p>
+        </div>
+      </div>
+    </header>
+
+    <main id="content"></main>
+
+    <footer>
+      <p>Copyright © 2024 - Pizza Plaza</p>
+    </footer>
+
+  </body>
+</html>
